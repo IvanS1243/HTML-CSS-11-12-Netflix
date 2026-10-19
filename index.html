@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix — Главная</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page">
+    <header>
+        <img src="https://occ.a.nflxso.net/dnmt/api/v6/iL4oJVDYZ8KLSrJ6eG2OwtghbfQ/AAAAAVIENVPMEM3Kn4hVzJseX4N8xPjtBDIpwuFDucWksdxQZ8Ss6Xf8U_vt7ThYYfRmzq0x1CS3nOwTGyVrgADvwfB_tPiK_liS2RjvI40RJSzbKRk-o8b3nCxHfCCnBsyB2XBB9_vRoSmN.svg" alt="logo" id="header-logo">
+        <div class="header-buttons">
+            <div class="language-box">
+                <span>🌐</span>
+                <select name="language" id="language-select">
+                    <option value="ru">Русский</option>
+                    <option value="en">English</option>
+                    <option value="kz">Қазақша</option>
+                </select>
+            </div>
+            <a href="login.html" id="loginBtn">Войти</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="text">
+            <h1>Хиты, которые вы больше нигде не найдете.</h1>
+            <h5>От 7,99 €. Отменить подписку можно в любое время.</h5>
+            <p>Готовы смотреть? Введите адрес электронной почты, чтобы оформить или возобновить подписку.</p>
+        </section>
+        <form class="text-input" action="login.html" method="GET">
+            <input type="email" placeholder="Адрес электронной почты" required>
+            <button type="submit">Начать смотреть</button>
+        </form>
+    </main>
+</body>
+</html>
